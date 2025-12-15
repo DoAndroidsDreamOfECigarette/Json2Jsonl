@@ -2,6 +2,7 @@
   "name": "jsontojsonl",
   "displayName": "JsonToJsonl",
   "description": "可以将多行json格式转换为每个json占一行的jsonl格式",
+  "publisher": "DoAndroidsDreamOfECigarette",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.106.1"
@@ -16,12 +17,20 @@
       {
         "command": "jsontojsonl.json2jsonl",
         "title": "Json To Jsonl"
+      },
+      {
+        "command": "jsontojsonl.jsonl2json",
+        "title": "Jsonl To Json"
       }
     ],
     "keybindings":[
       {
         "command": "jsontojsonl.json2jsonl",
         "key": "alt+m"
+      },
+      {
+        "command": "jsontojsonl.jsonl2json",
+        "key": "alt+n"
       }
     ]
   },
